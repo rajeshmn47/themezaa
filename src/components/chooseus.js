@@ -11,6 +11,12 @@ export const Chooseus=()=>{
     return(
         <>
      <div className='chooseus'>
+         <h5>
+     WHY CHOOSE US?</h5>
+     <h4>
+You do great work and so our themes are designed to elevate your work, not hamper it. Have a look at theme features that represent our creativity and capabilities.
+</h4>
+
      <div className='choosers'>
       <div className='choose'>
           <DesignServicesOutlinedIcon fontSize='large' 
