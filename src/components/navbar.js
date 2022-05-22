@@ -14,7 +14,7 @@ export const Navbar=()=>{
                 About
             </li>
             <li>
-                themes and lugins
+                themes and plugins
             </li>
             <li>
                 customization
