@@ -34,7 +34,7 @@ export const Navbar=()=>{
             f
             </li>
             <li>
-        <TwitterIcon/>    
+        <TwitterIcon style={{fontSize:'14px'}}/>    
             </li>
             <li>
         in    
