@@ -79,6 +79,10 @@ ul li{
     padding: 15vh 5vw;
     box-sizing: border-box;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .recentwork h5{
@@ -87,39 +91,61 @@ ul li{
     text-align: center;
 }
 .prevslide{
-    transition: 1s;
+ 
     display: block;
     width: 10vw;
-    transform: translateX(-10%);
-}
-.nextslide{  
-    transition: 1s;
-    display: block;
-    transform: translateX(10%);
-    width: 10vw;
+    transform: translateX(70%);
+  background-color: rgb(26, 226, 26);
+    transition: 0.5s;
 }
 .activeslide{
-    transition: 1s;
     display: block;
     width: 10vw;
     transform: translateX(0%);
+    transition: 0.5s;
+    background-color:blue;
+}
+.nextslide{  
+  
+    display: block;
+    transform: translateX(-120%);
+    width: 10vw;
+    width: 10vw;
+    background-color: red;
+    transition: 0.5s;
 }
 
 .recentworkslider{
     margin-top: 20vh;
     display: flex;
-    justify-content: space-evenly;
     overflow: hidden;
-    background-color: aqua;
+    width:10vw;
 }
 .recentworkslider div{
     width: 20vw;
-    margin: 0vh 2vw;
+    margin: 0vh 1vw;
 }
 .recentworkslider div img{
     width: 20vw;
-    margin: 0vh 3vw;
+    margin: 0vh 1vw;
+
 }
-.none{
-    display: none;
+
+
+.slide{
+    background-color: #5e5d5d;
+    padding: 3px;
+    border-radius: 50%;
+    margin: 0vh 5px;
+}
+
+.selectedslide{
+    background-color: #ffffff;
+    padding: 3px;
+    border-radius: 50%;
+    margin: 0vh 5px;
+}
+.selectslide{
+  display: flex;
+  width: 10vw;
 }

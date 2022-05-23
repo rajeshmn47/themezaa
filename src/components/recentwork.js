@@ -1,8 +1,8 @@
 import {useState,useEffect} from 'react'
-
+import Slide from './slides'
 
 export const Recentwork=()=>{
-
+const rajesh=[0,1,2,3,4,5,6,7,8,9,10,11]
 const[index,setIndex]=useState(0)
 useEffect(()=>{
 if(index>10){
@@ -34,9 +34,15 @@ return () => {
 <div className={index===8?'activeslide':index-1===8?'nextslide':index+1===8?'prevslide':'none'}> <img src="https://themezaa.b-cdn.net/wp-content/uploads/2017/02/theme-slider-6.jpg"/> </div>
 <div className={index===9?'activeslide':index-1===9?'nextslide':index+1===9?'prevslide':'none'}> <img src='https://themezaa.b-cdn.net/wp-content/uploads/2017/02/theme-slider-7.jpg'/> </div>
 <div className={index===10?'activeslide':index-1===10?'nextslide':index+1===10?'prevslide':'none'}> <img src="https://themezaa.b-cdn.net/wp-content/uploads/2017/02/theme-slider-8.jpg"/> </div>
-<div className={index===11?'activeslide':index-1===11?'nextslide':index+1===11?'prevslide':'none'}> <img src="https://themezaa.b-cdn.net/wp-content/uploads/2022/04/litho.jpg"/> </div>
+<div className={index===11?'activeslide':index-1===-1?'nextslide':index+1===11?'prevslide':'none'}> <img src="https://themezaa.b-cdn.net/wp-content/uploads/2022/04/litho.jpg"/> </div>
+</div>
+<div className='selectslide'>
+{rajesh.map((r)=>
+<Slide r={r} index={index} setIndex={setIndex}/>
+)}
 </div>
           </div>
+   
         </>
     )
 }
