@@ -22,7 +22,7 @@ return () => {
           {index}
         <div className="recentwork">
             <h5>checkout our most recent work</h5>
-            <div className="recentworkslider">
+            <div className='recentworkslider' style={{transform:`translateX(20*${index})vw`}}>
   <div className={index===0?'activeslide':index-1===0?'prevslide':'none'}><img src='https://themezaa.b-cdn.net/wp-content/uploads/2022/04/litho.jpg'/>  </div>
 <div className={index===1?'activeslide':index-1===1?'nextslide':index+1===1?'prevslide':'none'}> <img src='https://themezaa.b-cdn.net/wp-content/uploads/2019/12/hongo.jpg'/>  </div>
 <div className={index===2?'activeslide':index-1===2?'nextslide':index+1===2?'prevslide':'none'}><img src='https://themezaa.b-cdn.net/wp-content/uploads/2017/02/pofo.jpg'/></div>

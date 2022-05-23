@@ -73,6 +73,13 @@ ul li{
     margin-bottom: 4vh;
     font-weight: 200;
 }
+.recentworkslider{
+    margin-top: 20vh;
+    display: flex;
+    overflow: hidden;
+    width:70vw;
+    transition: all 0.3s linear;
+}
 .recentwork{
     background-color: #000000;
     height: 90vh;
@@ -94,40 +101,37 @@ ul li{
  
     display: block;
     width: 10vw;
-    transform: translateX(70%);
+    transform: translateX(-100%);
   background-color: rgb(26, 226, 26);
-    transition: 0.5s;
+  transition: all 0.3s linear;
+    
 }
 .activeslide{
     display: block;
     width: 10vw;
     transform: translateX(0%);
-    transition: 0.5s;
     background-color:blue;
+    transition: all 0.3s linear;
 }
 .nextslide{  
-  
     display: block;
-    transform: translateX(-120%);
+    transform: translateX(-60%);
     width: 10vw;
     width: 10vw;
     background-color: red;
-    transition: 0.5s;
+    transition: all 0.3s linear;
+}
+.none{
+    display: none;
 }
 
-.recentworkslider{
-    margin-top: 20vh;
-    display: flex;
-    overflow: hidden;
-    width:10vw;
-}
 .recentworkslider div{
     width: 20vw;
     margin: 0vh 1vw;
 }
 .recentworkslider div img{
-    width: 20vw;
-    margin: 0vh 1vw;
+    width: 15vw;
+    margin: 0vh 0vw;
 
 }
 
@@ -144,6 +148,7 @@ ul li{
     padding: 3px;
     border-radius: 50%;
     margin: 0vh 5px;
+
 }
 .selectslide{
   display: flex;
