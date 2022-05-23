@@ -78,7 +78,7 @@ ul li{
     height: 90vh;
     padding: 15vh 5vw;
     box-sizing: border-box;
-  
+  overflow: hidden;
 }
 
 .recentwork h5{
@@ -89,36 +89,37 @@ ul li{
 .prevslide{
     transition: 1s;
     display: block;
+    width: 10vw;
     transform: translateX(-10%);
 }
-.nextslide{
+.nextslide{  
     transition: 1s;
     display: block;
     transform: translateX(10%);
-    background-color: antiquewhite;
+    width: 10vw;
 }
 .activeslide{
     transition: 1s;
     display: block;
+    width: 10vw;
     transform: translateX(0%);
-    width: 30vw;
-    background-color: red;
 }
-.okbro{
-    display: none;
-    transition: 1s;
-    transform: translateX(-200%);
-}
+
 .recentworkslider{
+    margin-top: 20vh;
     display: flex;
     justify-content: space-evenly;
     overflow: hidden;
+    background-color: aqua;
 }
 .recentworkslider div{
     width: 20vw;
-    margin: 0vh 30vw;
+    margin: 0vh 2vw;
 }
 .recentworkslider div img{
     width: 20vw;
-    margin: 0vh 30vw;
+    margin: 0vh 3vw;
+}
+.none{
+    display: none;
 }
