@@ -78,10 +78,47 @@ ul li{
     height: 90vh;
     padding: 15vh 5vw;
     box-sizing: border-box;
+  
 }
 
 .recentwork h5{
     color: #ABABAB;
     text-transform: uppercase;
     text-align: center;
+}
+.prevslide{
+    transition: 1s;
+    display: block;
+    transform: translateX(-10%);
+}
+.nextslide{
+    transition: 1s;
+    display: block;
+    transform: translateX(10%);
+    background-color: antiquewhite;
+}
+.activeslide{
+    transition: 1s;
+    display: block;
+    transform: translateX(0%);
+    width: 30vw;
+    background-color: red;
+}
+.okbro{
+    display: none;
+    transition: 1s;
+    transform: translateX(-200%);
+}
+.recentworkslider{
+    display: flex;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+.recentworkslider div{
+    width: 20vw;
+    margin: 0vh 30vw;
+}
+.recentworkslider div img{
+    width: 20vw;
+    margin: 0vh 30vw;
 }
