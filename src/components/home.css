@@ -123,16 +123,26 @@ ul li{
 }
 .test{
     display:flex;
+    width: 80vw;
+    padding: 0vh 3vw;
     background-color: #000000;
     justify-content: flex-start;
+    box-sizing: content-box;
+    -ms-overflow-style: none;
 }
 .test div img{
 width:25vw;
 }
 .test div{
-    margin: 0vh 5vw;
+    margin: 0vh 2vw;
 }
 
 .none{
     display: none;
+}
+::-webkit-scrollbar {
+    width: 0 !important;
+ }
+.none{
+    visibility: hidden;
 }
