@@ -19,55 +19,55 @@ You do great work and so our themes are designed to elevate your work, not hampe
 
      <div className='choosers'>
       <div className='choose'>
-          <DesignServicesOutlinedIcon fontSize='large' 
-          style={{fontSize:'30vh',color:'#F96D33',height:'10vh',width:'2vw'}}/>
+          <DesignServicesOutlinedIcon 
+          style={{fontSize:'30px',color:'#F96D33',height:'10vh',width:'2vw'}}/>
           <h5>
               Beautiful and modern designs
           </h5>
           </div> 
           <div className='choose'>
-          <PhoneIphoneSharpIcon fontSize='large' 
-          style={{fontSize:'30vh',color:'#F96D33',height:'10vh',width:'2vw'}}/>
+          <PhoneIphoneSharpIcon
+          style={{fontSize:'150px',color:'#F96D33',height:'10vh',width:'2vw'}}/>
           <h5>
               Beautiful and modern designs
           </h5>
           </div>
           <div className='choose'>
-          <DesignServicesOutlinedIcon fontSize='large' 
-          style={{fontSize:'30vh',color:'#F96D33',height:'10vh',width:'2vw'}}/>
+          <DesignServicesOutlinedIcon
+          style={{fontSize:'30px',color:'#F96D33',height:'10vh',width:'2vw'}}/>
           <h5>
               Beautiful and modern designs
           </h5>
           </div>
           <div className='choose'>
-          <SpeedOutlinedIcon fontSize='large' 
-          style={{fontSize:'30vh',color:'#F96D33',height:'10vh',width:'2vw'}}/>
+          <SpeedOutlinedIcon 
+          style={{fontSize:'30px',color:'#F96D33',height:'10vh',width:'2vw'}}/>
           <h5>
               Beautiful and modern designs
           </h5>
           </div>
           <div className='choose'>
-          <DesignServicesOutlinedIcon fontSize='large' 
-          style={{fontSize:'30vh',color:'#F96D33',height:'10vh',width:'2vw'}}/>
+          <DesignServicesOutlinedIcon 
+          style={{fontSize:'30px',color:'#F96D33',height:'10vh',width:'2vw'}}/>
           <h5>
               Beautiful and modern designs
           </h5>
           </div>   <div className='choose'>
-          <SettingsOutlinedIcon fontSize='large' 
-          style={{fontSize:'30vh',color:'#F96D33',height:'10vh',width:'2vw'}}/>
+          <SettingsOutlinedIcon 
+          style={{fontSize:'30px',color:'#F96D33',height:'10vh',width:'2vw'}}/>
           <h5>
               Beautiful and modern designs
           </h5>
           </div>
           <div className='choose'>
-          <SupportOutlinedIcon fontSize='large' 
-          style={{fontSize:'30vh',color:'#F96D33',height:'10vh',width:'2vw'}}/>
+          <SupportOutlinedIcon 
+          style={{fontSize:'30px',color:'#F96D33',height:'10vh',width:'2vw'}}/>
           <h5>
               Beautiful and modern designs
           </h5>
           </div>  <div className='choose'>
-          <DesignServicesOutlinedIcon fontSize='large' 
-          style={{fontSize:'30vh',color:'#F96D33',height:'10vh',width:'2vw'}}/>
+          <DesignServicesOutlinedIcon 
+          style={{fontSize:'30px',color:'#F96D33',height:'10vh',width:'2vw'}}/>
           <h5>
               Beautiful and modern designs
           </h5>

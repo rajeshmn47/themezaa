@@ -78,7 +78,6 @@ ul li{
     display: flex;
     overflow: hidden;
     width:70vw;
-    transition: all 0.3s linear;
 }
 .recentwork{
     background-color: #000000;
@@ -97,43 +96,10 @@ ul li{
     text-transform: uppercase;
     text-align: center;
 }
-.prevslide{
- 
-    display: block;
-    width: 10vw;
-    transform: translateX(-100%);
-  background-color: rgb(26, 226, 26);
-  transition: all 0.3s linear;
-    
-}
-.activeslide{
-    display: block;
-    width: 10vw;
-    transform: translateX(0%);
-    background-color:blue;
-    transition: all 0.3s linear;
-}
-.nextslide{  
-    display: block;
-    transform: translateX(-60%);
-    width: 10vw;
-    width: 10vw;
-    background-color: red;
-    transition: all 0.3s linear;
-}
-.none{
-    display: none;
-}
 
-.recentworkslider div{
-    width: 20vw;
-    margin: 0vh 1vw;
-}
-.recentworkslider div img{
-    width: 15vw;
-    margin: 0vh 0vw;
 
-}
+
+
 
 
 .slide{
@@ -152,5 +118,21 @@ ul li{
 }
 .selectslide{
   display: flex;
+ 
   width: 10vw;
+}
+.test{
+    display:flex;
+    background-color: #000000;
+    justify-content: flex-start;
+}
+.test div img{
+width:25vw;
+}
+.test div{
+    margin: 0vh 5vw;
+}
+
+.none{
+    display: none;
 }
