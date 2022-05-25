@@ -1,8 +1,12 @@
 nav{
     display:flex;
-    background-color: black;
+    width: 100vw;
     justify-content: space-between;
     padding: 1vh 5vw;
+    position: absolute;
+    left: 0;
+    top: 0;
+    box-sizing: border-box;
 }
 
 
@@ -10,7 +14,6 @@ ul{
     display: flex;
     justify-content: space-evenly;
     color: hsl(0, 0%, 100%);
-    background-color: black;
     height: 10vh;
     align-items: center;
 }
@@ -121,16 +124,23 @@ ul li{
  
   width: 10vw;
 }
+.testy{
+    overflow-x: hidden;
+    background-color: #000000;
+    width: 100vw;
+    
+    left: 0;
+}
 .test{
     display:flex;
     width: 80vw;
     padding: 0vh 3vw;
     background-color: #000000;
     justify-content: flex-start;
-    box-sizing: content-box;
+    box-sizing: border-box;
     -ms-overflow-style: none;
-    position: relative;
-    overflow-x: hidden;
+ 
+ 
 }
 .test div img{
 width:25vw;
@@ -160,4 +170,181 @@ width:25vw;
 .activeslide{
     position: absolute;
     
+}
+.toppage{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+ 
+}
+.firstleftpage{
+    height: 100vh;
+    width: 50vw;
+    background-color:#537BBE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.secondleftpage{
+    height: 100vh;
+    width: 50vw;
+    background-color:#F96D33;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.thirdleftpage{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    background-color:#EA4C89;
+}
+.fourthleftpage{
+    height: 100vh;
+    width: 50vw;
+    background-color:#F96A33;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fifthleftpage{
+    height: 100vh;
+    width: 50vw;
+    background-color:#f0ce0d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rightpage{
+    height: 100vh;
+    width: 50vw;
+    background-color: black;
+}
+
+.demo{
+    text-transform: uppercase;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid #ffffff;
+    border-radius: 0px;
+    color: #ffffff;
+    padding: 1vh 1vw;
+    font-weight: 600;
+    display: inline-block;
+    margin: 0vh 2px;
+}
+.rightpage img{
+    margin-top: 15vh;
+    width: 50vw;
+    height: 85vh;
+}
+.details{
+    color: #ffffff;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 70vh;
+}
+.details h2{
+    text-transform: capitalize;
+}
+.details h1{
+    text-transform: uppercase;
+}
+
+.services{
+    position: relative;
+    background-color: #f8f8f8;
+    height: 30vh;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2vh 4vw;
+    box-sizing: border-box;
+}
+.explore{
+    color: #ffffff;
+    border: none;
+    background-color: #f96d33;
+position: absolute;
+top: -8%;
+left: 45%;
+padding: 1vh 1vw;
+text-transform: uppercase;
+}
+.service{
+    display: flex;
+    align-items: center;
+    width: 17vw;
+    justify-content: space-evenly;
+}
+.service h5{
+    width:4vw;
+}
+.service h5{
+    width:7vw;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.service h2{
+    font-size: 2vmax;
+    font-weight: 400;
+}
+.service h4{
+    font-stretch: narrower;
+    font-size: 2.5vmax;
+    font-weight: 300;
+    color: #F96A33;
+}
+
+.bottomservices{
+    background-color: #ffffff;
+    padding: 5vh 4vw;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 80vh;
+}
+.bottomservices h5{
+    width: 35vw;
+    font-size: medium;
+    font-weight: 200;
+    text-align: center;
+}
+.availableservices{
+    margin: 2vh 0vw;
+display: flex;
+flex-wrap: wrap;
+}
+
+.available{
+    display: flex;
+    width: 26vw;
+    margin: 4vh 2vw;
+    justify-content: space-between;
+    }
+    .available h5{
+     
+        }
+.icon{
+    display: flex;
+    width: 20vw;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.icon h5{
+    width: 100%;
+    margin: 0;
+    text-align: left;
+}
+.icon h2{
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom:1vh;
 }
